@@ -1,0 +1,162 @@
+/* html {
+  background-image: url("/lab-06/images/bats.gif");
+  background-repeat: repeat;
+  background-size: 250px 180px;
+}
+
+body {
+  border: 50px black;
+  width: 1000px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+header img {
+  float: left;
+}
+
+header {
+  background-image: linear-gradient(45deg, white, orange, black);
+  border: 4px solid black;
+  height: 140px;
+  right: 2px;
+}
+
+header h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 70px;
+}
+
+header h3 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 100px;
+}
+
+main h1,
+h3 {
+  font-weight: bold;
+}
+
+main h1 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: di÷sc inside;
+}
+
+Body {
+  border: 4px solid black;
+}
+
+a {
+  color: orange; 
+  text-decoration: underline; 
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: green; 
+  text-decoration: underline;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.larger-first-letter {
+  font-size: 50px;
+}
+
+footer {
+  background-image: linear-gradient(45deg, black, orange, white);
+  border: 4px solid black;
+  height: 150px;
+  display: flex;
+  text-align: ;
+} */
+
+html {
+  background-image: url("/lab-06/images/bats.gif");
+  background-repeat: repeat;
+  background-size: 250px 180px;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border: 4px solid black; /* Add this border here */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+header {
+  background-image: linear-gradient(45deg, white, orange, black);
+  border-bottom: 4px solid black; /* Move the border to the bottom */
+  height: 140px;
+  display: flex; /* Add display: flex to align header content */
+  align-items: center; /* Vertically center header content */
+  padding: 0 20px; /* Add some padding to the header */
+}
+
+header img {
+  float: left;
+}
+
+header h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px; /* Adjust the padding */
+}
+
+header h3 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 20px; /* Use margin-left instead of padding-left */
+}
+
+main h1,
+h3 {
+  font-weight: bold;
+}
+
+main h1 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+a {
+  color: orange; 
+  text-decoration: underline; 
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: green; 
+  text-decoration: underline;
+}
+/* Rest of your CSS... */
+
+footer {
+  background-image: linear-gradient(45deg, black, orange, white);
+  border-top: 4px solid black; /* Move the border to the top */
+  height: 150px;
+  display: flex;
+  align-items: center; /* Vertically center footer content */
+  padding: 0 20px; /* Add some padding to the footer */
+}
